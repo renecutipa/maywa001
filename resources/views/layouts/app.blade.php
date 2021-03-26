@@ -44,6 +44,7 @@
                                 <li><a href="{{ route('reunion.index') }}">Reuniones</a></li>
                                 <li><a href="{{ route('home') }}">Entrega</a></li>
                                 <li><a href="{{ route('reporte') }}">Reporte</a></li>
+                                <li><a href="{{ route('socio.create') }}">Socios</a></li>
                             @endif
                             </ul>
                         </ul>

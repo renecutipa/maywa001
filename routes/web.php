@@ -37,3 +37,4 @@ Route::delete('reuniones/{reunion}', 'ReunionController@destroy')->name('product
 Route::get('reuniones/{reunion}/edit', 'ReunionController@edit')->name('products.edit');*/
 
 Route::resource('/reunion','ReunionController');
+Route::resource('/socio','SocioController');
